@@ -3,6 +3,7 @@ import './globals.css'
 import { Manrope } from 'next/font/google'
 import { Footer } from '@/components/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import CookieBanner from '@/components/Cookiebanner'
 
 const manrope = Manrope({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
         <Header />
         {children}
+        <CookieBanner />
         <Footer />
       </body>
     </html>

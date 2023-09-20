@@ -3,7 +3,7 @@ import React from 'react'
 
 const CardBuyMobile = () => {
   return (
-    <div className='flex flex-col h-full gap-6 xl:hidden'>
+    <div className='flex flex-col h-full gap-6 lg:hidden'>
       <h2 className='self-stretch text-center text-[24px]'>
       <span className='text-[#2C7EF8]'>ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span className='text-[#2C7EF8]'>$14 each </span>($84.00 total!)
         </h2>

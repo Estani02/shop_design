@@ -17,7 +17,7 @@ const items = [
 const Header = () => {
   return (
     <>
-      <header className='bg-[#252F3D] py-[22px] xl:flex items-center justify-center w-full hidden'>
+      <header className='bg-[#252F3D] py-[22px] lg:flex items-center justify-center w-full hidden'>
         <ul className='flex w-3/4 justify-between font-medium text-white text-xs'>
           {
             items.map((i, index)=>(

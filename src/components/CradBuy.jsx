@@ -3,7 +3,7 @@ import React from 'react'
 
 const CradBuy = () => {
   return (
-    <div className='hidden xl:flex flex-col h-full gap-8'>
+    <div className='hidden lg:flex flex-col h-full gap-8'>
       <h2 className='self-stretch text-[32px]'>
       <span className='text-[#2C7EF8]'>ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span className='text-[#2C7EF8]'>$14 each </span>($84.00 total!)
         </h2>

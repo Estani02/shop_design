@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
         <Header />
         {children}
-        <CookieBanner />
+        {/* <CookieBanner /> */}
         <Footer />
       </body>
     </html>

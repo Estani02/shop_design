@@ -17,7 +17,7 @@ const CradBuy = () => {
               <p className='text-[#2C7EF8] text-[22px]'>$84</p>
             </div>
           </div>
-          <Image src='https://e-jam.vercel.app/stars1.svg' alt='stats' height={18} width={98} />
+          <Image src='https://e-jam.vercel.app/stars1.svg' alt='stats' height={18} width={98} className='h-[18px]' />
           <span className='flex items-center gap-4'> 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <ellipse cx="7.99996" cy="7.99999" rx="7.99996" ry="7.99999" fill="#E3EEFF"/>
@@ -62,7 +62,7 @@ const CradBuy = () => {
           Save <span className='text-[#2C7EF8]'>53%</span> and get  <span className='text-[#2C7EF8]'>6 extra Clarifision</span> for only <span className='text-[#2C7EF8]'>$14 Each.</span>
         </p>
       </div>
-      <div className='flex flex-col gap'>
+      <div className='flex flex-col'>
         <div className='flex flex-col gap-3'>
           <button className='flex uppercase gap-5 w-full items-center justify-center bg-[#59AE43] text-white font-bold text-xl rounded-[50px] py-4'>
             <p>Yes - Claim my discount</p> 
@@ -72,7 +72,7 @@ const CradBuy = () => {
               </svg>
             </span>
           </button>
-          <div className='border-[#CFCFCF] justify-between flex border-[1px] rounded-[4px] items-center px-4 py-2 self-stretch text-[#4D5254] text-xs whitespace-nowrap mb-5'>
+          <div className='border-[#CFCFCF] justify-between flex border-[1px] rounded-[4px] items-center px-4 py-2 self-stretch text-[#4D5254] text-xs whitespace-nowrap'>
             <p>Free shipping</p>
             <div className='w-[1px] h-full bg-[#CFCFCF]' />
             <p className='gap-[10px] flex items-center justify-center'>
@@ -99,7 +99,7 @@ const CradBuy = () => {
               <Image src='https://e-jam.vercel.app/amex.svg' alt='' width={24} height={14} />
             </div>
           </div>
-          <button className='uppercase underline text-[#F82C2C] text-center font-medium text-lg w-fit mx-auto'>No thanks, I don’t want this.</button>
+          <button className='uppercase underline text-[#F82C2C] text-center font-medium text-lg w-fit mx-auto mt-2'>No thanks, I don’t want this.</button>
         </div>
       </div>
       <div className='flex gap-4 items-center justify-center'>

@@ -4,7 +4,7 @@ import Steps from "@/components/Steps";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center">
+    <main className="flex flex-col justify-center items-center my-[50px] lg:my-0">
       <StartModal />
       <div className="inline-flex flex-col items-center gap-6">
           <h1 className="text-[32px] text-center lg:text-[48px] capitalize">Wait ! your order in progress.</h1>

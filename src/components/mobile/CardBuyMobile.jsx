@@ -74,7 +74,7 @@ const CardBuyMobile = () => {
               </svg>
             </span>
           </button>
-          <div className='flex flex-col gap-3 items-center justify-center px-4 py-2 border-[1px] rounded-[4px] border-[#CFCFCF] self-stretch mb-5'>
+          <div className='flex flex-col gap-3 items-center justify-center px-4 py-2 border-[1px] rounded-[4px] border-[#CFCFCF] self-stretch'>
             <div className='w-full justify-between flex items-center text-[#4D5254] text-xs text-center'>
               <p>Free shipping</p>
               <div className='w-[1px] bg-[#CFCFCF] h-[14px]' />

@@ -23,7 +23,7 @@ const Steps = () => {
         <span className='rounded-[50%] flex items-center justify-center h-5 w-5 lg:w-[40px] lg:h-[40px] bg-[#2C7EF8] text-white'>
           <p>3</p>
         </span>
-        <p>
+        <p className='font-bold'>
         <span className='hidden lg:inline-flex'>Step 3 :&nbsp;</span> 
           Special Offer
         </p>

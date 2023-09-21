@@ -75,8 +75,9 @@ const CardBuyMobile = () => {
             </span>
           </button>
           <div className='flex flex-col gap-3 items-center justify-center px-4 py-2 border-[1px] rounded-[4px] border-[#CFCFCF] self-stretch mb-5'>
-            <div className='w-full justify-between flex text-[#4D5254] text-xs text-center'>
-              <p className='border-r-[#4D5254] border-r-[1px] pr-4'>Free shipping</p>
+            <div className='w-full justify-between flex items-center text-[#4D5254] text-xs text-center'>
+              <p>Free shipping</p>
+              <div className='w-[1px] bg-[#CFCFCF] h-[14px]' />
               <p className='gap-[8px] flex items-center justify-center'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
                   <g clip-path="url(#clip0_1_137)">

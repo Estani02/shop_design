@@ -12,9 +12,6 @@ export const Card = () => {
         <CardReview />
       </div>
       <div>
-        <Image src='https://e-jam.vercel.app/image-4@2x.png' alt='article' width={575} height={591} />
-      </div>
-      <div>
         <CradBuy />
         <CardBuyMobile />
       </div>
